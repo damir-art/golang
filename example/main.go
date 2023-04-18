@@ -2,10 +2,12 @@ package main
 import "fmt"
 
 func main() {
-  for i := 0; i < 10; i++ {
-    if i % 2 != 0 {
-      continue
-    }
-    fmt.Printf("%d\n", i)
+
+  a := 1
+  // b := 2
+
+  if (a > 0) && (a != 0) {
+    fmt.Println("a > 0 && a != 0")
   }
+
 }
